@@ -13,7 +13,7 @@ set -ouex pipefail
 dnf5 install -y tmux
 
 # install Node Version Manager
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+# curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 
 # Use a COPR Example:
 #
