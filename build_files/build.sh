@@ -12,7 +12,7 @@ set -ouex pipefail
 # this installs a package from fedora repos
 dnf5 install -y tmux rust cargo helix
 
-flatpak install --system flathub com.bambulab.BambuStudio
+flatpak install --system -y flathub com.bambulab.BambuStudio
 
 # install Node Version Manager
 # curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
